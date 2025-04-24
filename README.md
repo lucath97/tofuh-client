@@ -12,7 +12,7 @@ A MicroPython based client for the TofUH system. This software was developed to 
 
 ```python
 station_ssid = ""               # string: SSID of your wireless access point"
-station_password = ""           # string password for your wireless access point
+station_password = ""           # string: password for your wireless access point
 
 mqtt_broker = ""                # string: host of the MQTT broker
 mqtt_port = 0                   # int: port of the MQTT broker
@@ -26,4 +26,4 @@ state_offset = 0                # int: bit offset for the state
 
 ```
 
-3. Deploy the software to the microcontroller with the `deploy.sh` script
+4. Deploy the software to the microcontroller with the `deploy.sh` script
